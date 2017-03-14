@@ -1,0 +1,20 @@
+<html>
+<head>
+  <title><%=title%></title>
+  <style>
+    .form-layout{padding-bottom: 5px;}
+    .tips{font-size:12px;color:#f00;}
+  </style>
+</head>
+<body>
+  <h1>NodeJs 爬虫系统</h1>
+  <form action="/" method="post" class="form-layout">
+    <div>
+      <label>抓取链接：</label>
+      <input type="text" value="<%=url%>" name="url" />
+      <button type="submit">立即抓取</button>
+    </div>
+  </form>
+  <div class="tips"><%=message%></div>
+</body>
+</html>
